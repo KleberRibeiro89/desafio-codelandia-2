@@ -1,0 +1,103 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+
+  font-size: 18px;
+  list-style: none;
+}
+
+.promocao {
+  background: #181818;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.tituloPrincipal {
+  text-align: center;
+  color: #181818;
+  padding: 15px;
+}
+
+.tituloPrincipal h1 {
+  font-size: 24px;
+}
+
+.imagemCabecalho {
+  height: 377px;
+  background: rgba(0, 0, 0, 0.65) url("./img/jordancapa.jpg");
+  background-blend-mode: darken;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.imagemCabecalho div {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-top: 129px;
+
+  font-size: 32px;
+}
+
+.imagemCabecalho p {
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+.destaques {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.destaques p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.listaTenis {
+  margin: 40px auto 80px;
+  max-width: 1150px;
+  overflow: hidden;
+}
+
+.listaTenis li {
+  background: #ebe9ea;
+  width: 265px;
+  height: 265px;
+  vertical-align: middle;
+  float: left;
+  margin: 9px;
+}
+
+.listaTenis li::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.listaTenis li img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+footer div {
+  background: #181818;
+  color: #fff;
+  height: 80px;
+}
+
+footer p {
+  padding-top: 40px;
+  text-align: center;
+}
