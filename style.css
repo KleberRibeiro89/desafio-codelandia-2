@@ -27,10 +27,12 @@
 
 .imagemCabecalho {
   height: 377px;
-  background: rgba(0, 0, 0, 0.65) url("./img/jordancapa.jpg");
+  background: rgba(0, 0, 0, 0.65) url("./img/jordancapa.jpg") no-repeat center;
   background-blend-mode: darken;
   margin: 0 auto;
   color: #fff;
+  background-size: cover;
+
 }
 
 .imagemCabecalho div {
@@ -98,6 +100,6 @@ footer div {
 }
 
 footer p {
-  padding-top: 40px;
+  padding-top: 35px;
   text-align: center;
 }
